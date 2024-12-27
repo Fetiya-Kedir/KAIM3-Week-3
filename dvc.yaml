@@ -1,0 +1,8 @@
+stages:
+  preprocess:
+    cmd: python scripts/preprocess.py
+    deps:
+    - data/MachineLearningRating_v3.txt
+    - scripts/preprocess.py
+    outs:
+    - data/preprocessed_data.csv
