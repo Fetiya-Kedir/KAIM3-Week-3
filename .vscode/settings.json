@@ -1,0 +1,6 @@
+{
+	"python.pythonPath": ".venv/bin/python",
+	"python.languageServer": "Pylance",
+	"jupyter.jupyterServerType": "local",
+	"editor.formatOnSave": true
+}
